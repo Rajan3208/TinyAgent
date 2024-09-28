@@ -3,6 +3,7 @@ import os
 import signal
 from http import HTTPStatus
 from typing import cast
+import streamlit as st
 
 from fastapi import FastAPI, HTTPException, Request, Response
 from fastapi.exceptions import HTTPException
